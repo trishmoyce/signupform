@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway:wght@400&display=swap');
+
+.main {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 95vh;
+    margin: auto;
+    position: relative;
+    width: 80vw;
+}
+
+a:link {
+    color:#9a4038;
+    font-style: bold;
+}
+
+a:visited {
+    color:#9a4038;
+}
+
+a:hover {
+    color:white
+}
+
+/* leftside */
+
+.sidebar {
+    background:
+        url(mathias-p-r-reding-bemTxD-Zpwo-unsplash.jpg)
+        top left / 1000px;
+}
+
+.logo {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 125px;
+    position: absolute;
+    top: 180px;
+    width: 32vw;
+    text-align: center;
+}
+
+.credit {
+    color: white;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 10px;
+    width: 32vw;
+    text-align: center;
+}
+
+/* rightside */
+
+.form {
+    background-color: #d39183;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/* rightside top */
+
+.top {
+    margin-left: 30px;
+    margin-top: 13vh;
+    margin-bottom: 30px;
+    margin-right: 5vw;
+}
+
+/* rightside middle */
+
+.middle {
+    background-color: #f3cbc2;
+    box-shadow: 0px 5px 4px -3px #9a4038;
+}
+
+.formtop {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    margin-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.formbottom {
+    column-gap: 50px;
+    row-gap: 10px;
+    display: grid;
+    grid-template-columns: 35% 35%;
+    margin-left: 30px;
+    padding-bottom: 20px;
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 4px;
+    display: block;
+    height: 25px;
+    width: 100%;
+}
+
+input:focus {
+    border: 1px solid b1000f;
+    content: "✔";
+    outline: none;
+    box-shadow: 0px 5px 4px -3px #9a4038;
+}
+
+input:invalid + span::after {
+    color: #9a4038;
+    content: "Required field";
+    font-size: 15px;
+    font-style: italic;
+}
+
+input:valid + span::after {
+    color: #174a43;
+    content: "✔";
+}
+
+/* rightside bottom */
+
+.bottom {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+button {
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0px 5px 4px -3px #9a4038;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 15px;
+    padding: 12px 30px;
+}
+
+button:hover {
+    border: 1px solid black;
+    color: #9a4038;
+}
+

@@ -38,6 +38,11 @@ a:hover {
     top: 180px;
     width: 32vw;
     text-align: center;
+    text-shadow: -2px 3px 4px #9a4038;
+}
+
+img {
+    filter: drop-shadow(-2px 3px 4px black);
 }
 
 .credit {
